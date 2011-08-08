@@ -92,16 +92,19 @@ Element method: rss{#Element: rss}
 
 ### Example:
 
-   #HTML
-   <div id="ajaxian"></div>
-   <div id="mootools"></div>
+    #HTML
+    <div id="ajaxian"></div>
+    <div id="mootools"></div>
 
-   #JS
-   (function($){
+
+    #JS
+    (function($){
+
      window.addEvent('domready', function(){
             $('ajaxian').rss('http://feeds.feedburner.com/ajaxian');
             $('mootools').rss('http://feeds.feedburner.com/mootools-blog');
      });
-   })(document.id);
+
+    })(document.id);
 
 
