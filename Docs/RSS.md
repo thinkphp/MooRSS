@@ -20,6 +20,9 @@ RSS Method: constructor {#RSS: constructor}
 
 ### Options:
 
+* (*String*) url   - the URL you want to extract the RSS Feed, default to ''
+* (*String*) proxy - the filename proxy PHP server, default to 'proxy.php?url='
+
 ### Returns:
 
 A new RSS instance.
@@ -95,7 +98,6 @@ Element method: rss{#Element: rss}
     #HTML
     <div id="ajaxian"></div>
     <div id="mootools"></div>
-
 
     #JS
     (function($){
