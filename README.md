@@ -15,11 +15,15 @@ First you must to include the JS files in the head of your HTML document.
         <script type="text/javascript">google.load("mootools", "1.3.2");</script>
         <script type="text/javascript" src="rss.js"></script>
         
+In your HTML/Body source:
+
         #BODY
         <h2>Ajaxian RSS</h2>
         <div id="ajaxian"></div>
         <h2>MooTools Blog RSS</h2>
         <div id="mootools"></div>
+
+In your JavaScript source:
 
         #JS
         (function($){
