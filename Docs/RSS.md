@@ -98,12 +98,10 @@ Element method: rss{#Element: rss}
 
    #JS
    (function($){
-
      window.addEvent('domready', function(){
             $('ajaxian').rss('http://feeds.feedburner.com/ajaxian');
             $('mootools').rss('http://feeds.feedburner.com/mootools-blog');
      });
-
    })(document.id);
 
 
